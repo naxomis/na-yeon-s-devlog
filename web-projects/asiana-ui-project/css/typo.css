@@ -1,0 +1,99 @@
+@charset "utf-8";
+html {
+    font-size: 10px;
+}
+body {
+    font: 1.5rem/1.8 Verdana, sans-serif;
+    color: #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+h2, h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2.4rem;
+
+}
+
+h3 {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+a {
+    color: #243c84;
+    text-decoration: none;
+}
+.main_tit {
+    font-size: 3.6rem;
+    letter-spacing: 4px;
+    color: rgba(255,255,255,.85);
+}
+
+#menu h3 {
+    color: #fff;
+    font-weight: normal;
+}
+/* 섹션3 */
+#event h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+#event li p:first-of-type {
+    color: #999;
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'omyu_pretty', sans-serif;
+}
+
+@font-face {
+    font-family: 'KCC-Ganpan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.section h2,
+h1,
+a {
+    font-family: 'KCC-Ganpan', sans-serif;
+
+}
+
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.section h3 {
+    font-family: 'KIMM_Bold', sans-serif;
+}
+button {
+    color: #fff;
+}
+::placeholder {
+    color: #ccc;
+}
+#event a {
+    color: #fff;
+}
+/* foooer */
+footer {
+    color: #ccc;
+}
