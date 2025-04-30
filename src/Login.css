@@ -1,0 +1,20 @@
+button {
+    width: 100px;
+    padding: 10px 0px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: beige;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 1rem;
+}
+label {
+    margin-bottom: 10px;
+}
+label > input {
+    border : none;
+    padding: 10px 20px;
+    border-bottom: 3px solid rgb(92, 247, 92);
+    border-radius: 10px 10px 0px 0;
+}

@@ -2,37 +2,64 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  background-color: rgb(255, 211, 66);
+
+}
+.header {
+  text-align: center;
+  color: black;
+  margin: 0;
+  height: 80px;
+  position: relative;
+  line-height: 80px;
+}
+nav, h4, .main1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.main1 {
+  background-color: #eee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navi {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(109, 255, 80);
+  border-radius: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-item {
+  padding: 8px 16px;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  line-height: 40px;
+  color: black;
+}
+.active {
+  color: white;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  transition: 1s;
+}
+.loginPage {
+  text-align: center;
+}
+.loginForm {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tourContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
 }
